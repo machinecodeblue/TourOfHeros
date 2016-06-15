@@ -26,6 +26,7 @@ export class HeroService {
               .then(res=>res.json().data)
               .catch(this.handleError)
   }
+  
 
 // Update existing Hero
 private put(hero: Hero) {
